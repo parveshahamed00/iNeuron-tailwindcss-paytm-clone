@@ -5,10 +5,10 @@ This is my assignment designed for [iNeuron.](https://ineuron.ai/)
 
 ## GIF
 
-![App Screenshot](assets/Screenshot.png)
+![App GIF](GIF/Paytm-Clown-Google-Chrome-2022-0.gif)
 > Designed fully responsive using tailwindcss
 
-[Live Demo](https://parveshahamed-street-style-landing-page.netlify.app/)
+[Live Demo](https://parveshahamed-paytm-clone.netlify.app/)
 
 ## Lessons Learned
 

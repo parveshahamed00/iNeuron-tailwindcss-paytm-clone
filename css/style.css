@@ -1,0 +1,221 @@
+/* navbar */
+header {
+  background-color: #ffffff;
+}
+header nav a {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+header .list-icon{
+    display: none;
+}
+
+header button i {
+  margin-left: 10px;
+  font-size: 25px;
+  background-color: #002970;
+  border-radius: 50%;
+}
+header button {
+  background-color: #00baf2;
+  color: #ffffff;
+  border-radius: 20px !important;
+}
+header button:hover {
+  background-color: #002970;
+}
+header button:hover i {
+  background-color: #00baf2;
+}
+.learn-more {
+    padding: 1% 0;
+    text-align: center;
+    background-color: #F5F5F5;
+    font-size: 1.1em;
+}
+.learn-more span{
+    font-weight: 700;
+}
+/* india-love */
+.india-love-logo{
+    position: absolute;
+    top: 4%;
+    width: 7%;
+}
+.india-most-loved{
+    position: relative;
+}
+.india-most-loved button,.instruments button{
+    background-color: black;
+    color: #ffffff;
+    border-radius: 25px;
+}
+.india-most-loved button:hover ,.instruments button:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.footer-button{
+  background-color: black;
+    color: #ffffff;
+    border-radius: 25px;
+}
+.footer-button:hover{
+    background-color: #ffffff;
+    color: black;
+}
+/* bills */
+.bills{
+    padding: 5% 0;
+    background-color: #00baf2;
+    color: #ffffff;
+}
+.book{
+        padding: 5% 0;
+        background-color: #002970;
+            color: #ffffff;
+
+
+}
+.bills .bill-flex,.book .bill-flex{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px
+}
+.bills .bill-flex:hover{
+    background-color: #00AFE3;
+}
+.book .bill-flex:hover{
+    background-color: #0D3E80;
+}
+
+.bills .bill-flex:hover i,.book .bill-flex:hover i{
+    color: #00baf2;
+}
+.bills .bill-flex div,.book .bill-flex div{
+    padding: 9% 0;
+}
+.bills i,.book i{
+font-size: 1.7em;
+padding: 15%;
+color: #002970;
+background-color: #ffffff;
+border-radius: 100%;
+
+}
+.bills h1,.book h1{
+  margin-bottom: 5%;  
+}
+.bills .text-xl,.book .text-xl{
+    margin-top: 15%;
+}
+/* instruments */
+.instruments{
+    background-color: #F5F5F5;
+}
+.instruments .instruments-heading{
+    padding: 3% 0;
+}
+.instruments .container{
+    background-color: #ffffff;
+    padding: 2% 4%;
+}
+  .instruments  .pay-anyone{
+    margin: 5% 0;
+  }
+  /* cards */
+  .cards{
+    padding: 4% 5%;
+    background-color: #F5F5F5;
+  }
+  .cards .bank-img{
+    margin-left: 7%;
+    width: 40%;
+    margin-bottom: 5%;
+    
+  }
+  .cards .card-img{
+    width: 90%;
+  }
+    .cards .grid div{
+        padding: 5%;
+        background-color: #ffffff;
+    }
+    /* financial & other similar divs*/
+    .Financial-button{
+        border-radius: 20px;
+        background-color: #002970;
+        color: #ffffff;
+    }
+     .Financial-button:hover{
+        background-color: #ffffff;
+        color: #002970;
+    }
+    .financial-service-logo{
+        width: 30%;
+    }
+    /* business-service */
+    .business-service{
+      padding: 2%;
+      background-color: #F5F5F5;
+    }
+    .business-service-card{
+      background-color: #ffffff;
+    }
+    /* business-tools */
+    .business-tools .business-tool-fled:hover{
+      background-color: #F5F5F5;
+    }
+    /* blue-background */
+    .blue-background{
+      padding: 5%;
+      padding-top: 7%;
+      background-color:azure;
+    }
+    .blue-background .blue-text{
+      color: #00AFE3;
+    }
+    .blue-background .px-2{
+      background-color: #66D6FF;
+      border-radius: 20px;
+      color: #ffffff;
+    }
+    .travel .px-2 img{
+      width: 60%;
+    }
+    /* footer */
+    .footer{
+      padding: 5%;
+    }
+    .footer .social-media i{
+      font-size: 2em;
+      
+    }
+     .footer .social-media i:hover{
+      color: #00baf2;
+     }
+        .footer .social-media{
+          width: 40%;
+          text-align: center;
+        }
+    .footer .social-media .bi-twitter{
+      padding: 0 5%;
+    }
+/* media-query */
+@media only screen and (max-width: 768px) {
+  .india-love-logo{
+    position:unset;
+    margin-bottom: 3%;
+        width: 10%;
+
+}
+header .list-icon{
+    display: unset;
+    font-size: 2em;
+}
+header nav{
+    display: none !important;
+}
+header .logo-img{
+    margin-top: 4%;
+}
+}
